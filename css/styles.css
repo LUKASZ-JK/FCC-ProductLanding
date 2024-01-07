@@ -56,9 +56,14 @@ html {
 }
 
 #main-section {
+  position: fixed;
+  top: 15%;
+  left:0;
   display: flex;
+  width: 100vw;
+  height: 85%;
   flex-direction: column;
-  overflow-y:scroll;
+  overflow-y: scroll;
   align-items: center;
 }
 
